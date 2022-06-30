@@ -1,0 +1,9 @@
+.place__main-text {
+  width: 484px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  grid-area: text;
+}

@@ -1,0 +1,7 @@
+.place__website {
+  min-width: 484px;
+  font-style: normal;
+  font-weight: 400;
+  grid-area: website;
+  padding-left: 40px;
+}
