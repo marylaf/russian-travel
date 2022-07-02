@@ -1,26 +1,30 @@
 .place__image {
-  max-width: 460px;
-  max-height: 460px;
+  width: 460px;
+  height: 460px;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    min-width: 440px;
-    max-height: 440px;
+    width: 440px;
+    height: 440px;
+    margin-right: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-    min-width: 340px;
-    max-height: 340px;
+    width: 340px;
+    height: 340px;
+    margin-right: 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
-    min-width: 320px;
-    max-height: 320px;
+    width: 320px;
+    height: 320px;
+    margin-right: 16ox;
     padding-bottom: 32px;
   }
 }

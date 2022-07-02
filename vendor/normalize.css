@@ -39,7 +39,21 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+}
+
+section {
+  overflow: hidden;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 /* Grouping content
