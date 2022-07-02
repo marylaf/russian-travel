@@ -1,10 +1,16 @@
 .intro__text {
   max-width: 690px;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Inter";
   font-size: 16px;
   line-height: 163%;
   color: #ffffff;
   padding-bottom: 33px;
   margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    width: 100%;
+    padding-bottom: 34px;
+  }
 }

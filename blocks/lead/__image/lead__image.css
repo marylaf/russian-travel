@@ -1,7 +1,20 @@
 .lead__image {
   position: relative;
-  width: 984px;
+  background-size: contain;
+  width: 100%;
   height: 615px;
   margin: 0 auto;
   background-image: url("../../../images/kalegin-michail-179870-unsplash (1).png");
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    max-height: 200px;
+  }
 }

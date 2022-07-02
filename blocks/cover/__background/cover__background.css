@@ -1,9 +1,23 @@
 .cover__background {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
   justify-content: center;
   z-index: 10;
-  position: absolute;
+  position: relative;
+  min-width: 560px;
+  margin: 0 auto;
+  top: 195px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    top: 115px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    top: 33px;
+    min-width: 100%;
+  }
 }

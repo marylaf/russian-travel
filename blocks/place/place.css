@@ -1,10 +1,22 @@
 .place {
   max-width: 984px;
-  min-height: 584px;
   padding-bottom: 80px;
   margin: 0 auto;
 }
 
 .place:nth-child(5n) {
   padding-bottom: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .place {
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    width: 100%;
+    padding-bottom: 50px;
+  }
 }

@@ -1,7 +1,16 @@
 .place__website {
   min-width: 484px;
-  font-style: normal;
-  font-weight: 400;
-  grid-area: website;
-  padding-left: 40px;
+  font-family: "Inter";
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    min-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    min-width: 352px;
+  }
 }

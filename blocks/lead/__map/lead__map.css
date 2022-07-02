@@ -1,7 +1,26 @@
 .lead__map {
   position: absolute;
-  width: 937.09px;
-  height: 262.99px;
+  max-width: 100%;
   left: 23.27px;
   top: 90.21px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__map {
+    left: 0;
+    top: 70.41px;
+    width: calc(100% - 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__map {
+    left: 0;
+    top: 70.41px;
+    width: calc(100% - 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
