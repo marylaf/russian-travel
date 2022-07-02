@@ -9,14 +9,16 @@
 @media screen and (max-width: 1024px) {
   .place__main-text {
     width: 456px;
-    /* padding-left: 32px; */
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__main-text {
     width: 352px;
-    /* padding-left: 28px; */
+    padding-left: 28px;
+    padding-right: 28px;
     font-size: 16px;
   }
 }
@@ -24,7 +26,7 @@
 @media screen and (max-width: 320px) {
   .place__main-text {
     width: 288px;
-    /* padding-left: 16px; */
+    padding-left: 16px;
     padding-right: 16px;
     font-size: 16px;
   }
