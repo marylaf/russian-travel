@@ -1,5 +1,5 @@
 .place__main-text {
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
@@ -24,6 +24,5 @@
     width: 288px;
     padding-left: 16px;
     padding-right: 16px;
-    font-size: 16px;
   }
 }

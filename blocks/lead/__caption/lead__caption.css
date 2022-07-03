@@ -1,7 +1,6 @@
 .lead__caption {
   color: #ffffff;
-  min-width: 158px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 1.5px;

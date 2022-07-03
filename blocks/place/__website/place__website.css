@@ -1,7 +1,6 @@
 .place__website {
   min-width: 484px;
-  font-family: "Inter";
-  font-weight: 400;
+  font-family: "Inter", "Arial", sans-serif;
 }
 
 @media screen and (max-width: 1024px) {

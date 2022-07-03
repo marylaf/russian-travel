@@ -4,21 +4,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .intro {
-    padding-left: 48px;
+  .intro__container {
+    margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .intro {
-    padding-left: 24px;
-    padding-right: 24px;
+  .intro__container {
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .intro {
-    padding-left: 16px;
-    padding-right: 16px;
+  .intro__container {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
