@@ -24,7 +24,7 @@
   .place__image {
     width: 320px;
     height: 320px;
-    padding-bottom: 32px;
     margin-right: 0;
+    margin-bottom: 32px;
   }
 }
