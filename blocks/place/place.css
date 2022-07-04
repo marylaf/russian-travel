@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 
-.place:nth-child(5n) {
+.place:last-child {
   padding-bottom: 0;
 }
 

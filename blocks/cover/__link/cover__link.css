@@ -9,3 +9,8 @@
   transition: background-color 0.5s ease-in-out;
   margin: 0;
 }
+
+.cover__link:hover {
+  background: rgba(42, 44, 47, 0.7);
+  transition: background-color 0.5s ease-in-out;
+}
