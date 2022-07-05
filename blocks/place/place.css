@@ -8,17 +8,17 @@
   padding-bottom: 0;
 }
 
+/* @media screen and (max-width: 850px) {
+  .place {
+    width: 100%;
+  }
+} */
+
 @media screen and (max-width: 768px) {
   .place {
     padding-bottom: 73px;
   }
 }
-/* 
-@media screen and (max-width: 600px) {
-  .place {
-    max-width: 600px;
-  }
-} */
 
 @media screen and (max-width: 320px) {
   .place {

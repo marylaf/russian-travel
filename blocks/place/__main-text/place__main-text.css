@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .place__main-text {
     max-width: 100%;
     padding-left: 16px;

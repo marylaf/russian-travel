@@ -4,7 +4,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .place__main-title {
     flex-direction: column;
     align-items: flex-start;
