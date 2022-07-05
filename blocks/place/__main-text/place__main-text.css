@@ -8,20 +8,20 @@
 
 @media screen and (max-width: 1024px) {
   .place__main-text {
-    width: 456px;
+    max-width: 456px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__main-text {
-    width: 352px;
+    max-width: 352px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__main-text {
-    width: 288px;
+    max-width: 288px;
     padding-left: 16px;
     padding-right: 16px;
   }
