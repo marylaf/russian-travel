@@ -26,6 +26,16 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .place__title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 32px;
+    padding-right: 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__title {
     width: auto;

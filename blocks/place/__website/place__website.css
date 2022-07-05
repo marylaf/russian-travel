@@ -9,11 +9,11 @@
   }
 } */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .place__website {
     min-width: 352px;
   }
-}
+} */
 
 @media screen and (max-width: 320px) {
   .place__website {

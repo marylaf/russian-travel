@@ -6,10 +6,18 @@
   max-width: 984px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .place__container {
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 32px;
   }
 }
+
+/* @media screen and (max-width: 320px) {
+  .place__container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 32px;
+  }
+} */

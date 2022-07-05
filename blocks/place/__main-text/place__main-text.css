@@ -19,10 +19,16 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .place__main-text {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__main-text {
     max-width: 288px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }
